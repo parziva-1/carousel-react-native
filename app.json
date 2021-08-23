@@ -29,6 +29,7 @@
       "favicon": "./app/assets/favicon.png"
     },
     "description": "",
-    "owner": "black_cream"
+    "owner": "black_cream",
+    "githubUrl": "https://github.com/parziva-1/carousel-react-native"
   }
 }

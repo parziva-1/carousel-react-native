@@ -27,9 +27,9 @@ function Carousel() {
     _storeData("current", current);
   }, [current]);
 
-  const handleOnScroll = useCallback((e) => {
-    const contentOffset = e.nativeEvent.contentOffset.x;
-    const layoutMeasurement = e.nativeEvent.layoutMeasurement.width;
+  const handleOnScroll = useCallback(({ nativeEvent }) => {
+    const contentOffset = nativeEvent.contentOffset.x;
+    const layoutMeasurement = nativeEvent.layoutMeasurement.width;
     const currenBlock = Math.ceil(contentOffset / layoutMeasurement);
     setCurrent(currenBlock);
   });
@@ -48,7 +48,6 @@ function Carousel() {
       y: 0,
       animated: true,
     });
-    setCurrent(current - 1);
   };
 
   const handleOnLayout = (e, index) => {
