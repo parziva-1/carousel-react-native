@@ -2,9 +2,11 @@
 
 ##
 
+<p align="center" width="100%">
 <img src="img/gift_Android.gif" data-canonical-src="img/gift_Android.gif" width="200" height="400" />
 <img src="img/1.png" data-canonical-src="img/1.png" width="200" height="400" />
 <img src="img/2.png" data-canonical-src="img/2.png" width="200" height="400" />
+</p>
 
 ## Available Scripts
 
