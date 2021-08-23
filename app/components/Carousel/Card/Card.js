@@ -12,7 +12,10 @@ function Card({ images }) {
   return (
     <ScrollView horizontal contentContainerStyle={Styles.Card}>
       <View>
-        <Image source={{ uri: image, width: 300, height: 200 }} />
+        <Image
+          style={Styles.Img}
+          source={{ uri: image, width: 300, height: 200 }}
+        />
       </View>
     </ScrollView>
   );

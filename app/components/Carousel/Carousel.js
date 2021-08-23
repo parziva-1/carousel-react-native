@@ -59,7 +59,7 @@ function Carousel() {
   return (
     <View style={Styles.Base}>
       <View
-        style={Styles.Base}
+        style={Styles.CarouselWrap}
         onLayout={() =>
           ref.scrollTo({
             x: cords[current] - marginOfBock,

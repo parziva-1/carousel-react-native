@@ -8,16 +8,16 @@ const Styles = StyleSheet.create({
   CarouselWrapText: {
     flexDirection: "row",
     position: "relative",
-    bottom: "70%",
     alignSelf: "center",
+    bottom: "2%",
   },
   CarouselText: {
-    color: "#888",
+    color: "#000",
     fontSize: 15,
     paddingHorizontal: 3,
   },
   CarouselTextActive: {
-    color: "white",
+    color: "#999",
     fontSize: 15,
     paddingHorizontal: 3,
   },
@@ -35,6 +35,7 @@ const Styles = StyleSheet.create({
   ArrowRightIcon: {
     width: 50,
     height: 50,
+    borderColor: "white",
   },
   ArrowRight: {
     flex: 1,
@@ -42,7 +43,14 @@ const Styles = StyleSheet.create({
     top: "45%",
     right: 0,
   },
-  Base: { flex: 1 },
+  Base: {
+    flex: 1,
+    justifyContent: "center",
+    backgroundColor: "#ffa",
+  },
+  CarouselWrap: {
+    flex: 0.35,
+  },
 });
 
 export default Styles;
